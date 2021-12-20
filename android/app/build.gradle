@@ -156,7 +156,7 @@ android {
                         "REACT_ANDROID_BUILD_DIR=$rootDir/../node_modules/react-native/ReactAndroid/build"
                 cFlags "-Wall", "-Werror", "-fexceptions", "-frtti", "-DWITH_INSPECTOR=1"
                 cppFlags "-std=c++17"
-                targets "myapplication_appmodules"
+                targets "samplelibrary"
             }
         }
     }
