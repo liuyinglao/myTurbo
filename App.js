@@ -26,6 +26,7 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 import Button from "react-native/Libraries/Components/Button";
+import SampleLibrary from '/Users/yinglao/myTurbo2/js/NativeSampleLibrary'
 
 const App: () => Node = () => {
   const isDarkMode = useColorScheme() === 'dark';
@@ -36,6 +37,8 @@ const App: () => Node = () => {
 
   const testFunc = async () => {
     console.log('hello world');
+    const s = await SampleLibrary.getString('123');
+    console.log(s)
   }
 
   return (

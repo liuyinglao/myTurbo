@@ -160,6 +160,13 @@ android {
             }
         }
     }
+    // Add this block
+    externalNativeBuild {
+        ndkBuild {
+            path "$projectDir/src/main/jni/Android.mk"
+        }
+    }
+
     def reactAndroidProjectDir = project(':ReactAndroid').projectDir
     def packageReactNdkLibs = tasks.register("packageReactNdkLibs", Copy) {
         dependsOn(":ReactAndroid:packageReactNdkLibsForBuck")

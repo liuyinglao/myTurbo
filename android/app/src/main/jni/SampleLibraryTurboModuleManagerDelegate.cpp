@@ -37,7 +37,7 @@ std::shared_ptr<TurboModule> SampleLibraryTurboModuleManagerDelegate::getTurboMo
 std::shared_ptr<TurboModule> SampleLibraryTurboModuleManagerDelegate::getTurboModule(
     const std::string name,
     const JavaTurboModule::InitParams &params) {
-  return SampleLibraryAppModuleProvider(name, params);
+  return SampleLibraryModuleProvider(name, params);
 }
 
 bool SampleLibraryTurboModuleManagerDelegate::canCreateTurboModule(
