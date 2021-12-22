@@ -27,7 +27,7 @@ import {
 } from 'react-native/Libraries/NewAppScreen';
 import Button from "react-native/Libraries/Components/Button";
 import SampleLibrary from '/Users/yinglao/myTurbo2/js/NativeSampleLibrary'
-
+import SampleTurboCxxModule from '/Users/yinglao/myTurbo2/js/SampleTurboCxxModule'
 const App: () => Node = () => {
   const isDarkMode = useColorScheme() === 'dark';
 
@@ -36,8 +36,9 @@ const App: () => Node = () => {
   };
 
   const testFunc = async () => {
-    console.log('hello world');
-    const s = await SampleLibrary.getString('123');
+    const s = await SampleLibrary.getString('hello world ');
+    const ob = await SampleTurboCxxModule.getConstants();
+    console.log(ob)
     console.log(s)
   }
 

@@ -2,6 +2,7 @@ THIS_DIR := $(call my-dir)
 
 include $(REACT_ANDROID_DIR)/Android-prebuilt.mk
 include $(GENERATED_SRC_DIR)/codegen/jni/Android.mk
+include
 
 include $(CLEAR_VARS)
 
