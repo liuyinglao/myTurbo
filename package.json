@@ -27,5 +27,19 @@
   },
   "jest": {
     "preset": "react-native"
+  },
+  "codegenConfig": {
+    "libraries": [
+      {
+        "name": "NativeSampleLibrary",
+        "type": "modules",
+        "jsSrcsDir": "js"
+      },
+      {
+        "name": "SampleTurboCxxModule",
+        "type": "modules",
+        "jsSrcsDir": "js"
+      }
+    ]
   }
 }
