@@ -13,6 +13,7 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		1D830F5A277A429D00F31F74 /* NativeSampleLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D830F59277A429D00F31F74 /* NativeSampleLibrary.m */; };
 		1D830F72277B52EA00F31F74 /* SampleTurboCxxModule.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1D830F70277B52EA00F31F74 /* SampleTurboCxxModule.cpp */; };
+		1D830F78277B8E0800F31F74 /* NativeSampleTurboCxxModuleSpecJSI.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1D830F76277B8E0800F31F74 /* NativeSampleTurboCxxModuleSpecJSI.cpp */; };
 		746259A49B00AA12C8026A0F /* libPods-myTurbo2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C6664B4F4F1FBECC4A58AE44 /* libPods-myTurbo2.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		F512CB4D3994AAA8C5812204 /* libPods-myTurbo2-myTurbo2Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 79862E4A95747BBDB62EA697 /* libPods-myTurbo2-myTurbo2Tests.a */; };
@@ -43,6 +44,8 @@
 		1D830F59277A429D00F31F74 /* NativeSampleLibrary.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; path = NativeSampleLibrary.m; sourceTree = "<group>"; };
 		1D830F70277B52EA00F31F74 /* SampleTurboCxxModule.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SampleTurboCxxModule.cpp; sourceTree = "<group>"; };
 		1D830F71277B52EA00F31F74 /* SampleTurboCxxModule.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SampleTurboCxxModule.hpp; sourceTree = "<group>"; };
+		1D830F76277B8E0800F31F74 /* NativeSampleTurboCxxModuleSpecJSI.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = NativeSampleTurboCxxModuleSpecJSI.cpp; path = ../cpp/NativeSampleTurboCxxModuleSpecJSI.cpp; sourceTree = "<group>"; };
+		1D830F77277B8E0800F31F74 /* NativeSampleTurboCxxModuleSpecJSI.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = NativeSampleTurboCxxModuleSpecJSI.h; path = ../cpp/NativeSampleTurboCxxModuleSpecJSI.h; sourceTree = "<group>"; };
 		79862E4A95747BBDB62EA697 /* libPods-myTurbo2-myTurbo2Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-myTurbo2-myTurbo2Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = myTurbo2/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		98FAB14D8135526594998C22 /* Pods-myTurbo2-myTurbo2Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myTurbo2-myTurbo2Tests.debug.xcconfig"; path = "Target Support Files/Pods-myTurbo2-myTurbo2Tests/Pods-myTurbo2-myTurbo2Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -99,6 +102,8 @@
 				1D830F59277A429D00F31F74 /* NativeSampleLibrary.m */,
 				1D830F70277B52EA00F31F74 /* SampleTurboCxxModule.cpp */,
 				1D830F71277B52EA00F31F74 /* SampleTurboCxxModule.hpp */,
+				1D830F76277B8E0800F31F74 /* NativeSampleTurboCxxModuleSpecJSI.cpp */,
+				1D830F77277B8E0800F31F74 /* NativeSampleTurboCxxModuleSpecJSI.h */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
@@ -423,6 +428,7 @@
 				1D830F72277B52EA00F31F74 /* SampleTurboCxxModule.cpp in Sources */,
 				1D830F5A277A429D00F31F74 /* NativeSampleLibrary.m in Sources */,
 				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
+				1D830F78277B8E0800F31F74 /* NativeSampleTurboCxxModuleSpecJSI.cpp in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

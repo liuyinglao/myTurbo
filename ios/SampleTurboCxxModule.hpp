@@ -16,7 +16,7 @@
 
 #include <memory>
 
-#include "React-Codegen/SampleTurboCxxModule/SampleTurboCxxModule.h"
+#include "NativeSampleTurboCxxModuleSpecJSI.h"
 
 namespace facebook {
 namespace react {

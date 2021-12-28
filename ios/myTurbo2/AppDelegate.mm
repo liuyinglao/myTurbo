@@ -15,6 +15,7 @@
 #import <ReactCommon/RCTTurboModuleManager.h>
 
 #import <react/config/ReactNativeConfig.h>
+#import "SampleTurboCxxModule.hpp"
 
 @interface AppDelegate () <RCTCxxBridgeDelegate, RCTTurboModuleManagerDelegate> {
   RCTTurboModuleManager *_turboModuleManager;
@@ -91,6 +92,9 @@
 - (std::shared_ptr<facebook::react::TurboModule>)getTurboModule:(const std::string &)name
                                                       jsInvoker:(std::shared_ptr<facebook::react::CallInvoker>)jsInvoker
 {
+  if (name == "SampleTurboCxxModule") {
+      return std::make_shared<facebook::react::SampleTurboCxxModule>(jsInvoker);
+    }
   return nullptr;
 }
 
