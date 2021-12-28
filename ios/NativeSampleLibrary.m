@@ -5,13 +5,13 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-#import "SampleLibrary.h"
+#import "NativeSampleLibrary.h"
 #import <React/RCTUtils.h>
 #import <UIKit/UIKit.h>
 
 using namespace facebook::react;
 
-@implementation SampleLibrary
+@implementation NativeSampleLibrary
 
 // Backward-compatible export
 RCT_EXPORT_MODULE()

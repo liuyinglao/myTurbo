@@ -11,6 +11,6 @@ export interface Spec extends TurboModule {
   getString(id: string): Promise<string>;
 }
 
-const NativeModule = (TurboModuleRegistry.getEnforcing<Spec>('SampleLibrary'): ?Spec);
+const NativeModule = (TurboModuleRegistry.getEnforcing<Spec>('NativeSampleLibrary'): ?Spec);
 
 export default NativeModule;
